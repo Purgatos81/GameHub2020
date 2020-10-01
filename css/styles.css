@@ -8,9 +8,8 @@ nav li {
 }
 
 nav a {
-    color: #eee /* #1C2945*/;
+    color: #eee;
     text-decoration: none;
-    padding: 18px;
 }
 
 nav a:hover {
