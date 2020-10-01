@@ -1,0 +1,27 @@
+body {
+    background-color: #1c2945/* - #06080e*/;
+}
+
+nav li {
+    display: inline-block;
+    background-color: #608CEB;
+}
+
+nav a {
+    color: #eee /* #1C2945*/;
+    text-decoration: none;
+    padding: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+.active {
+    background-color: white;
+    color: #1C2945;
+}
