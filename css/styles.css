@@ -4,12 +4,14 @@ body {
 }
 
 nav li {
+    border: 1px solid grey;
+    margin-right: 0px;
     display: inline-block;
     background-color: #608CEB;
+    color: #1C2945;
 }
 
 nav a {
-    color: #eee;
     text-decoration: none;
 }
 
@@ -18,7 +20,10 @@ nav a:hover {
 }
 
 nav ul {
-    padding: 0px;
+    border: 1px solid gray;
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 0px;
 }
 
 .active {
@@ -29,4 +34,15 @@ footer {
     color: white;
     font-family: verdana regular;
     font-size: 10px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+li a {
+    padding: 2px 5px;
+    border: 1px solid gray;
+    display: inline-block;
+    width: 120px
 }
