@@ -1,6 +1,6 @@
 body {
     background-color: #1c2945/* - #06080e*/;
-    color: white;
+    color: #1C2945;
 }
 
 nav li {
@@ -50,5 +50,14 @@ li a {
 
 img#a {
     max-width: 100%;
-    align: center
+}
+
+figure {
+    width: 50%; background-color: #608CEB;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0,2),
+                0 6px 20px 0 rgba(0, 0, 0, 0,15);
+    margin: 10px;
+}
+figcaption {
+    text-align: center; padding: 10px 20px;
 }
