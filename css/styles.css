@@ -5,7 +5,7 @@ body {
 
 nav li {
     border: 1px solid grey;
-    margin-right: 0px;
+    margin-right: -3px;
     display: inline-block;
     background-color: #608CEB;
     color: #1C2945;
@@ -46,4 +46,9 @@ li a {
     border: 1px solid gray;
     display: inline-block;
     width: 120px
+}
+main {
+    background-image: url('../media/Test.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
