@@ -47,8 +47,8 @@ li a {
     display: inline-block;
     width: 120px
 }
-main {
-    background-image: url('../media/Test.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+
+img#a {
+    max-width: 100%;
+    align: center
 }
