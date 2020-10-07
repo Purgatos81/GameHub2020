@@ -1,6 +1,6 @@
 body {
     background-color: #1c2945/* - #06080e*/;
-    color: #1C2945;
+    color: white;
 }
 
 nav li {
@@ -60,4 +60,8 @@ figure {
 }
 figcaption {
     text-align: center; padding: 10px 20px;
+}
+
+.form__input {
+    display: block;
 }
