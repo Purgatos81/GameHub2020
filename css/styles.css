@@ -1,5 +1,5 @@
 body {
-    background-color: #1c2945/* - #06080e*/;
+    background-image: linear-gradient(to bottom,  #1c2945 ,#06080e);
     color: white;
 }
 
@@ -64,4 +64,12 @@ figcaption {
 
 .form__input {
     display: block;
+}
+
+.button__continiue {
+    background-color:  #608CEB;
+    text-align: center;
+    padding: 3px 10px; margin: 4px 0px 0px 200px;
+    cursor: pointer;
+    border-radius: 25px;
 }
