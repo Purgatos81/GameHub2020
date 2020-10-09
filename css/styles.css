@@ -1,6 +1,12 @@
 body {
+    background-color: #27385E;
+    margin: 0px;
+}
+
+main {
     background-image: linear-gradient(to bottom,  #1c2945 ,#06080e);
     color: white;
+    margin: 0px;
 }
 
 nav li {
@@ -72,4 +78,9 @@ figcaption {
     padding: 3px 10px; margin: 4px 0px 0px 200px;
     cursor: pointer;
     border-radius: 25px;
+}
+
+.create-account {
+    max-width: 200px;
+    padding-left: 50px;
 }
